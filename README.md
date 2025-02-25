@@ -13,7 +13,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return dict(name="Anugrah", Location="Dehradun")
+    return dict(name="Ayush", Location="Dehradun")
 
 @app.get("/{data}")
 def read_data(data):
@@ -81,7 +81,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: anugrah2334/fastapi:latest
+          tags:ayush0516/fastapi:latest
 
 
 
@@ -113,26 +113,26 @@ Then, enter the token when prompted.
 #### Add the Repository secret:
 Go to the Settings--> Secrets and Variables--> Actions--> Create New Repository Secrets contaning the Docker Hub username and Docker Hub password that contains the Token generated
 
-![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot3.png)
+![Example Image](https://github.com/Ayush-hh/FastAPI/blob/main/SS3.png)
 
 #### Steps to push the .github folder and files in your GitHub Repository
 1. Go to the Terminal and run the command to initialize git
 sh
 git init
 
-![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot4.png)
+![Example Image](https://github.com/Ayush-hh/FastAPI/blob/main/SS4.png)
 
 2. Add your remote repository
 sh
 git remote add origin <your-github-repo-url>
 
-![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot5.png)
+![Example Image](https://github.com/Ayush-hh/FastAPI/blob/main/SS5.png)
 
 3. Add files for the commit
 sh
 git add file-name
 
-![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot6.png)
+![Example Image](https://github.com/Ayush-hh/FastAPI/blob/main/SS6.png)
 
 4. Commit the changes
 sh
@@ -143,17 +143,17 @@ git commit -m "Added files"
 sh
 git push -u origin main
 
-![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot7.png)
+![Example Image](https://github.com/Ayush-hh/FastAPI/blob/main/SS7.png)
 
 #### Check that the image has been build or not?
 1. Go to the Repository--> Actions Tab. You will see that 1 workflow will be running. Wait unitl it build successfully.
 
-![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot8.png)
+![Example Image](https://github.com/Ayush-hh/FastAPI/blob/main/SS8.png)
 
-![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot9.png)
+![Example Image](https://github.com/Ayush-hh/FastAPI/blob/main/SS9.png)
 
 2. Now check you Docker Hub account. The images will be created in your account.
 
-![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot10.png)
+![Example Image](https://github.com/Ayush-hh/FastAPI/blob/main/SS10.png)
 
 ---
