@@ -108,7 +108,7 @@ docker login -u <your-docker-username>
 
 Then, enter the token when prompted.
 
-![Example Image](https://github.com/Anugrah2334/Fast_API/blob/main/Screenshot2.png)
+![Example Image](https://github.com/Ayush-hh/FastAPI/blob/main/SS2.png)
 
 #### Add the Repository secret:
 Go to the Settings--> Secrets and Variables--> Actions--> Create New Repository Secrets contaning the Docker Hub username and Docker Hub password that contains the Token generated
